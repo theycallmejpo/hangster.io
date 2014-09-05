@@ -1,0 +1,45 @@
+html, body, .container { 
+	height: 100%;
+} 
+
+body { 
+	background-color: #222;
+	color: #efefef;
+}
+
+.container {
+	display: table;
+}
+
+.row.vertical-center-row {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.hover-pointer:hover {
+	cursor: pointer;
+}
+
+.email-input {
+	display: inline-block;
+	width: 90%;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.inline-form .btn {
+	vertical-align: top;
+	width: 90%;
+}
+
+@media (min-width: 768px) {
+	.email-input {
+		width: 50%;
+		margin-bottom: 0;
+		text-align: left;
+	}
+
+	.inline-form .btn {
+		width: auto;
+	}
+}
