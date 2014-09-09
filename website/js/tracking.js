@@ -6,7 +6,6 @@
 
 		$.get('http://ipinfo.io', function(response) {
 
-			console.log(response);
 			tracking.push({
 				'date': getCurrentDate(),
 				'ip': response.ip,

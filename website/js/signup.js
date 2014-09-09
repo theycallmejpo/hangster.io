@@ -15,10 +15,7 @@
 
 			if (isEmail(email)) {
 				signup.push({ 'email': email });
-			} else {
-				console.debug('Email not well formatted');
 			}
-			
 		});
 
 	});
